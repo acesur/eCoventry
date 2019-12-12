@@ -40,8 +40,8 @@ public class HomeFragment extends Fragment {
         recyclerView=root.findViewById(R.id.rvstudents);
 
         if(MainActivity.st.isEmpty()) {
-            MainActivity.st.add(new Student("Sushan Maharjan", "Male", "20", "Nepal"));
-            MainActivity.st.add(new Student("Ram Maharjan", "Male", "50", "KTM"));
+            MainActivity.st.add(new Student("Sumiran Giri", "Male", "23", "Nepal"));
+            MainActivity.st.add(new Student("Ram", "Male", "30", "KTM"));
 
             AdapterActivity adapter = new AdapterActivity(MainActivity.st, getContext());
 

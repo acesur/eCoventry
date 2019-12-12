@@ -40,7 +40,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             password=editTextPassword.getText().toString();
             if(checkvalidate()) {
 
-                if(username.equals("admin") && password.equals("admin")) {
+                if(username.equals("softwarica") && password.equals("coventry")) {
                     Intent intent = new Intent(this, MainActivity.class);
                     startActivity(intent);
                 }
